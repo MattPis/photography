@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C913155819E9E70200789492 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913155719E9E70200789492 /* DetailViewController.m */; };
+		C9210ADB1A0AF97000F89084 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = C9210ADA1A0AF97000F89084 /* About.m */; };
+		C9461CFC19EB11E3003BB849 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9461CFB19EB11E3003BB849 /* ContactViewController.m */; };
 		C964DD5F19E7614E00F1084D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C964DD5E19E7614E00F1084D /* main.m */; };
 		C964DD6219E7614E00F1084D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C964DD6119E7614E00F1084D /* AppDelegate.m */; };
 		C964DD6519E7614E00F1084D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C964DD6419E7614E00F1084D /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		C964DD6A19E7614E00F1084D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C964DD6919E7614E00F1084D /* Images.xcassets */; };
 		C964DD6D19E7614E00F1084D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C964DD6B19E7614E00F1084D /* LaunchScreen.xib */; };
 		C964DD7919E7614E00F1084D /* MATEUSZ_PISTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C964DD7819E7614E00F1084D /* MATEUSZ_PISTests.m */; };
+		C964DD8619E7921D00F1084D /* introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C964DD8519E7921D00F1084D /* introViewController.m */; };
+		C98DFC5619EC8D91000584B5 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DFC5519EC8D91000584B5 /* GalleryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C913155619E9E70100789492 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C913155719E9E70200789492 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C9210AD91A0AF97000F89084 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = About.h; path = ../About.h; sourceTree = "<group>"; };
+		C9210ADA1A0AF97000F89084 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = About.m; path = ../About.m; sourceTree = "<group>"; };
+		C9461CFA19EB11E3003BB849 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		C9461CFB19EB11E3003BB849 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		C964DD5919E7614E00F1084D /* MATEUSZ PIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MATEUSZ PIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C964DD5D19E7614E00F1084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C964DD5E19E7614E00F1084D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,10 @@
 		C964DD7219E7614E00F1084D /* MATEUSZ PISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MATEUSZ PISTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C964DD7719E7614E00F1084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C964DD7819E7614E00F1084D /* MATEUSZ_PISTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MATEUSZ_PISTests.m; sourceTree = "<group>"; };
+		C964DD8419E7921D00F1084D /* introViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introViewController.h; sourceTree = "<group>"; };
+		C964DD8519E7921D00F1084D /* introViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introViewController.m; sourceTree = "<group>"; };
+		C98DFC5419EC8D91000584B5 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		C98DFC5519EC8D91000584B5 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +98,18 @@
 			children = (
 				C964DD6019E7614E00F1084D /* AppDelegate.h */,
 				C964DD6119E7614E00F1084D /* AppDelegate.m */,
+				C964DD8419E7921D00F1084D /* introViewController.h */,
+				C964DD8519E7921D00F1084D /* introViewController.m */,
+				C9210AD91A0AF97000F89084 /* About.h */,
+				C9210ADA1A0AF97000F89084 /* About.m */,
 				C964DD6319E7614E00F1084D /* ViewController.h */,
 				C964DD6419E7614E00F1084D /* ViewController.m */,
+				C913155619E9E70100789492 /* DetailViewController.h */,
+				C913155719E9E70200789492 /* DetailViewController.m */,
+				C98DFC5419EC8D91000584B5 /* GalleryViewController.h */,
+				C98DFC5519EC8D91000584B5 /* GalleryViewController.m */,
+				C9461CFA19EB11E3003BB849 /* ContactViewController.h */,
+				C9461CFB19EB11E3003BB849 /* ContactViewController.m */,
 				C964DD6619E7614E00F1084D /* Main.storyboard */,
 				C964DD6919E7614E00F1084D /* Images.xcassets */,
 				C964DD6B19E7614E00F1084D /* LaunchScreen.xib */,
@@ -168,9 +193,16 @@
 				TargetAttributes = {
 					C964DD5819E7614E00F1084D = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = DPC69RZ76Z;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					C964DD7119E7614E00F1084D = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = DPC69RZ76Z;
 						TestTargetID = C964DD5819E7614E00F1084D;
 					};
 				};
@@ -219,9 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C913155819E9E70200789492 /* DetailViewController.m in Sources */,
+				C9461CFC19EB11E3003BB849 /* ContactViewController.m in Sources */,
 				C964DD6519E7614E00F1084D /* ViewController.m in Sources */,
 				C964DD6219E7614E00F1084D /* AppDelegate.m in Sources */,
 				C964DD5F19E7614E00F1084D /* main.m in Sources */,
+				C9210ADB1A0AF97000F89084 /* About.m in Sources */,
+				C98DFC5619EC8D91000584B5 /* GalleryViewController.m in Sources */,
+				C964DD8619E7921D00F1084D /* introViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +382,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "MATEUSZ PIS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +397,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "MATEUSZ PIS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -365,6 +412,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -376,6 +425,7 @@
 				INFOPLIST_FILE = "MATEUSZ PISTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MATEUSZ PIS.app/MATEUSZ PIS";
 			};
 			name = Debug;
@@ -384,6 +434,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,6 +443,7 @@
 				INFOPLIST_FILE = "MATEUSZ PISTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MATEUSZ PIS.app/MATEUSZ PIS";
 			};
 			name = Release;
@@ -414,6 +467,7 @@
 				C964DD7E19E7614E00F1084D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C964DD7F19E7614E00F1084D /* Build configuration list for PBXNativeTarget "MATEUSZ PISTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +476,7 @@
 				C964DD8119E7614E00F1084D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
